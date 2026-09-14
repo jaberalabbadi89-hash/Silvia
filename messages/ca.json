@@ -1,0 +1,219 @@
+{
+  "services": {
+    "badge": "SERVEIS",
+    "title": "Els meus <highlight>Serveis</highlight>",
+    "description": "Explora les diferents sessions de teràpia de so i experiències adaptades a les teves necessitats específiques.",
+    "cards": {
+      "individual": {
+        "title": "Sessions Individuals i Grupals",
+        "description": "Banys de so i teràpies personalitzades per a una relaxació profunda.",
+        "points": ["Relaxació profunda", "Equilibri emocional", "Reducció de l'estrès"],
+        "tags": ["Particulars", "Parelles", "Grups reduïts"],
+        "action": {
+          "label": "Reserva ara",
+          "href": "#anchors-mj443gvr3"
+        }
+      },
+      "corporate": {
+        "title": "Empreses i Educació",
+        "description": "Programes especialitzats per a empreses, escoles i institucions.",
+        "points": ["Construcció d'equips", "Gestió de l'estrès", "Millora de la concentració"],
+        "tags": ["Empreses", "Escoles", "Esdeveniments"],
+        "action": {
+          "label": "Reserva ara",
+          "href": "#anchors-mj443gvr3"
+        }
+      }
+    }
+  },
+  "navbar": {
+    "ariaLabel": "Lloc",
+    "brand": {
+      "href": "/ca",
+      "alt": "1 (1).jpg"
+    },
+    "links": {
+      "services": {
+        "label": "Serveis",
+        "href": "/ca#anchors-mj2u0el63"
+      },
+      "method": {
+        "label": "Mètode",
+        "href": "/ca#anchors-mj2ukmfn2"
+      },
+      "about": {
+        "label": "Sobre mi",
+        "href": "/ca#anchors-mj2z3e173"
+      },
+      "contact": {
+        "label": "Contacte",
+        "href": "/ca#anchors-mj443gvr3"
+      }
+    },
+    "booking": {
+      "label": "Reserva ara",
+      "href": "#anchors-mj443gvr3"
+    }
+  },
+  "hero": {
+    "imageAlt": "Teràpia de so",
+    "badge": "Teràpia de so a Barcelona",
+    "title": "Benestar a través del so i la veu",
+    "subtitle": "Banys de so, sessions de grup i experiències sensorials terapèutiques per a centres de benestar, residències, escoles, empreses i centres sanitaris.",
+    "primaryAction": {
+      "label": "Reserva ara",
+      "href": "#anchors-mj443gvr3"
+    },
+    "secondaryAction": {
+      "label": "Veure demostració",
+      "href": "/en#anchors-mj2ztfx52"
+    }
+  },
+  "features": {
+    "badge": "Què és la teràpia de so?",
+    "title": "El poder <highlight>curatiu del so</highlight>",
+    "description": "La teràpia de so utilitza vibracions harmòniques de bols tibetans, flautes natives, tambors, campanes de vent i cants harmònics per induir estats profunds de relaxació, equilibrar el sistema nerviós i facilitar la millora emocional i física.",
+    "cards": {
+      "relaxation": {
+        "title": "Relaxació profunda",
+        "description": "Redueix naturalment l'estrès i l'ansietat."
+      },
+      "clarity": {
+        "title": "Millora",
+        "description": "Millora la concentració i el benestar emocional"
+      },
+      "sleep": {
+        "title": "Facilita",
+        "description": "Facilita cicles de descans reparador i equilibri."
+      },
+      "harmony": {
+        "title": "Reconnecta",
+        "description": "Reconnecta cos, ment i esperit"
+      }
+    }
+  },
+  "method": {
+    "badge": "El meu mètode",
+    "title": "Per què funciona el meu mètode",
+    "description": "Com a xamana urbana, combino tècniques ancestrals de sanació amb so, amb un enfocament modern, adaptat a les necessitats actuals. La meva pràctica integra cant d'harmònics, instruments nadius i anys d'experiència en espais de salut i de benestar.",
+    "cards": {
+      "holistic": {
+        "title": "Enfocament holístic",
+        "description": "Treballant amb cos, ment i esperit de forma integrada."
+      },
+      "adaptation": {
+        "title": "Adaptació personal",
+        "description": "Cada sessió es personalitza segons les necessitats del moment."
+      },
+      "experience": {
+        "title": "Experiència Certificada",
+        "description": "Anys de formació i pràctica en teràpia de so i tècniques ancestrals."
+      },
+      "space": {
+        "title": "Espai Sagrat",
+        "description": "Creant entorns segurs i acollidors per a la curació."
+      }
+    },
+    "instrumentsTitle": "Instruments que utilitzo",
+    "instruments": [
+      "Bols tibetans",
+      "Tambor oceànic",
+      "Flauta nativa",
+      "Tambor xamànic",
+      "Cant d'harmònics",
+      "Campanes de vent",
+      "Sons de la natura",
+      "Tingshas"
+    ],
+    "quote": "\"El so és el pont entre allò visible i allò invisible, entre el cos i l'ànima.\""
+  },
+  "audience": {
+    "badge": "Per a qui?",
+    "title": "A qui va <highlight>dirigit?</highlight>",
+    "description": "Experiències de teràpia de so personalitzades per a diverses necessitats i entorns.",
+    "cards": {
+      "yoga": {
+        "title": "Centres de ioga i meditació",
+        "description": "Millora la teva oferta de classes amb acompanyament meditatiu i so terapèutic en viu."
+      },
+      "corporate": {
+        "title": "Empreses",
+        "description": "Programes de benestar corporatiu per reduir augmentar la moral de l'equip"
+      },
+      "retirement": {
+        "title": "Residències de gent gran",
+        "description": "Sessions suaus i relaxants per millorar el son i l'estat d'ànim de la gent gran."
+      },
+      "sports": {
+        "title": "Clubs esportius",
+        "description": "Relaxació profunda per a la recuperació i concentració mental."
+      },
+      "hotels": {
+        "title": "Hotels i SPAS",
+        "description": "Banys de so suaus per als clients que busquen la calidesa distintiva d'un espai acollidor i relaxant per a les seves vacances."
+      },
+      "private": {
+        "title": "Clients privats",
+        "description": "Sessions personalitzades per a la sanació i el creixement personal."
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Testimonis",
+    "title": "Què opina la <highlight>gent</highlight>",
+    "slides": [
+      {
+        "quote": "\"Vaig rebre un bany de so que em va resultar una experiència sanadora i relaxant. La tècnica que utilitza a través de múltiples objectes sonors i cants d'harmònics et transporta a un estat de pau, benestar i calma emocional.\"",
+        "author": "Paqui T."
+      },
+      {
+        "quote": "\"Vaig rebre un bany de so que em va resultar una experiència sanadora i relaxant. La tècnica que utilitza a través de múltiples objectes sonors i cants d'harmònics et transporta a un estat de pau, benestar i calma emocional.\"",
+        "author": "Paqui T."
+      },
+      {
+        "quote": "\"Vaig rebre un bany de so que em va resultar una experiència sanadora i relaxant. La tècnica que utilitza a través de múltiples objectes sonors i cants d'harmònics et transporta a un estat de pau, benestar i calma emocional.\"",
+        "author": "Paqui T."
+      }
+    ]
+  },
+  "about": {
+    "badge": "Qui söc",
+    "title": "Sóc Selva",
+    "description1": "Xamana urbana, cantant d'harmònics i terapeuta de so. El meu nom significa \"jungla\" i, com a tal, busco crear espais de connexió profunda amb la naturalesa interior de cada persona.",
+    "description2": "Treballo amb bols tibetans, flauta nativa, tambors xamànics i cants harmònics per facilitar experiències de sanació i relaxació profunda. La meva missió és portar el poder curatiu del so a espais on pugui tenir el major impacte: centres de benestar, residències de gent gran, empreses i hotels a Barcelona i rodalies.",
+    "location": "Barcelona, Espanya",
+    "instagram": "@selva_patinyo"
+  },
+  "gallery": {
+    "title": "Experimenta el so",
+    "description": "Un breu viatge sonor perquè descobreixis la ressonància sagrada del tambor xamànic i la màgia de la vibració sanadora dels bols tibetans",
+    "alt1": "Vista prèvia de vídeo del bol tibetà i viatge sonor",
+    "alt2": "Vista prèvia de vídeo del tambor xamànic i ressonància de la natura"
+  },
+  "contact": {
+    "title": "Contacta'ns",
+    "description": "A punt per experimentar el poder curatiu del so? Contacta'm per reservar una sessió o sol·licitar més informació.",
+    "phone": "644105184",
+    "email": "selvapatinyo@gmail.com",
+    "travelStatus": "Amb seu a Barcelona, Espanya\nDisponible per viatjar",
+    "formTitle": "Enviar un missatge",
+    "nameLabel": "Nom",
+    "emailLabel": "Email",
+    "phoneLabel": "Telèfon",
+    "messageLabel": "Escriu un missatge...",
+    "agreeText": "I agree to the",
+    "policyLinkText": "Privacy Policy",
+    "submit": "Enviar"
+  },
+  "footer": {
+    "logoAlt": "1 (1).jpg",
+    "privacy": "política de privacitat",
+    "copyright": "© 2025 Selva Sound Therapy. Tots els drets reservats.",
+    "brand": "Teràpia de so i benestar holístic"
+  },
+  "seo": {
+    "title": "Selva Teràpia de So | Benestar a través del so",
+    "description": "Banys de so, sessions grupals i experiències sensorials terapèutiques per a centres de benestar, empreses i més a Barcelona.",
+    "keywords": "teràpia de so, bany de so, benestar, relaxació, Barcelona, bols tibetans"
+  }
+}

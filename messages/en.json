@@ -1,0 +1,220 @@
+{
+  "services": {
+    "badge": "SERVICES",
+    "title": "My <highlight>Services</highlight>",
+    "description": "Explore the different sound therapy sessions and experiences tailored for your specific needs.",
+    "cards": {
+      "individual": {
+        "title": "Individual & Group Sessions",
+        "description": "Sound baths and personalized therapies for deep relaxation.",
+        "points": ["Deep relaxation", "Emotional balance", "Stress reduction"],
+        "tags": ["Individuals", "Couples", "Small groups"],
+        "action": {
+          "label": "Book Now",
+          "href": "#anchors-mj443gvr3"
+        }
+      },
+      "corporate": {
+        "title": "Corporate & Educational",
+        "description": "Specialized programs for companies, schools and institutions.",
+        "points": ["Team building", "Stress management", "Improved focus"],
+        "tags": ["Companies", "Schools", "Events"],
+        "action": {
+          "label": "Book Now",
+          "href": "#anchors-mj443gvr3"
+        }
+      }
+    }
+  },
+  "navbar": {
+    "ariaLabel": "Site",
+    "brand": {
+      "href": "/en",
+      "alt": "1 (1).jpg"
+    },
+    "links": {
+      "services": {
+        "label": "Servicios",
+        "href": "/en#anchors-mj2u0el63"
+      },
+      "method": {
+        "label": "Método",
+        "href": "/en#anchors-mj2ukmfn2"
+      },
+      "about": {
+        "label": "Sobre mi",
+        "href": "/en#anchors-mj2z3e173"
+      },
+      "contact": {
+        "label": "Contacto",
+        "href": "/en#anchors-mj443gvr3"
+      }
+    },
+    "booking": {
+      "label": "Book Now",
+      "href": "#anchors-mj443gvr3"
+    }
+  },
+  "hero": {
+    "imageAlt": "Sound therapy",
+    "badge": "Sound therapy in Barcelona",
+    "title": "Well-Being Through Sound & Voice",
+    "subtitle": "Sound baths, group sessions, and therapeutic sensory experiences for wellness centers, nursing homes, schools, businesses, and healthcare facilities.",
+    "primaryAction": {
+      "label": "Book Now",
+      "href": "#anchors-mj443gvr3"
+    },
+    "secondaryAction": {
+      "label": "View demo",
+      "href": "/en#anchors-mj2ztfx52"
+    }
+  },
+  "features": {
+    "badge": "What is Sound Therapy?",
+    "title": "The Healing <highlight>Power of Sound</highlight>",
+    "description": "Sound therapy uses harmonic vibrations from Tibetan singing bowls, native flutes, drums, wind chimes, and overtone singing to induce deep states of relaxation, balance the nervous system, and facilitate emotional and physical improvement.",
+
+    "cards": {
+      "relaxation": {
+        "title": "Deep Relaxation",
+        "description": "Naturally reduces stress and anxiety"
+      },
+      "clarity": {
+        "title": "Mental Clarity",
+        "description": "Improve focus and emotional well-being"
+      },
+      "sleep": {
+        "title": "Better Sleep",
+        "description": "Facilitate restorative rest and balance cycles"
+      },
+      "harmony": {
+        "title": "Inner Harmony",
+        "description": "Reconnect body, mind, and spirit"
+      }
+    }
+  },
+  "method": {
+    "badge": "My Method",
+    "title": "Why My Method Works",
+    "description": "As an urban shaman, I combine ancestral sound healing techniques with a modern approach adapted to current needs. My practice integrates overtone singing, sacred instruments, and years of experience in wellness spaces.",
+    "cards": {
+      "holistic": {
+        "title": "Holistic Approach",
+        "description": "Working with body, mind, and spirit in an integrated way."
+      },
+      "adaptation": {
+        "title": "Personal Adaptation",
+        "description": "Each session is customized according to the needs of the moment."
+      },
+      "experience": {
+        "title": "Certified Experience",
+        "description": "Years of training and practice in sound therapy and ancestral techniques."
+      },
+      "space": {
+        "title": "Sacred Space",
+        "description": "Creating safe and welcoming environments for healing."
+      }
+    },
+    "instrumentsTitle": "Instruments I Use",
+    "instruments": [
+      "Tibetan Singing Bowls",
+      "Ocean Drum",
+      "Native Flute",
+      "Shamanic Drum",
+      "Overtone Singing",
+      "Wind Chimes",
+      "Nature Sounds",
+      "Tingshas"
+    ],
+    "quote": "\"Sound is the bridge between the visible and the invisible, between body and soul.\""
+  },
+  "audience": {
+    "badge": "For Whom?",
+    "title": "Who This Is <highlight>For</highlight>",
+    "description": "Tailored sound therapy experiences for diverse needs and environments.",
+    "cards": {
+      "yoga": {
+        "title": "Yoga & Meditation Centers",
+        "description": "Enhance your class offerings with live sound healing accompaniment."
+      },
+      "corporate": {
+        "title": "Companies",
+        "description": "Corporate wellness programs to reduce burnout and boost team morale."
+      },
+      "retirement": {
+        "title": "Retirement Homes",
+        "description": "Gentle, soothing sessions to improve sleep and mood for the elderly."
+      },
+      "sports": {
+        "title": "Sports Clubs",
+        "description": "Deep relaxation for recovery and mental focus."
+      },
+      "hotels": {
+        "title": "Relax & Restore",
+        "description": "Gentle sessions to improve guests' sleep and mood"
+      },
+      "private": {
+        "title": "Private Clients",
+        "description": "Tailored sessions for personal healing and growth."
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "What People Say About <highlight>My Sessions</highlight>",
+    "slides": [
+      {
+        "quote": "\"Selva's sessions have completely transformed our students' experience. The feedback is always extraordinary.\"",
+        "author": "Sarah M."
+      },
+      {
+        "quote": "\"Selva's sessions have completely transformed our students' experience. The feedback is always extraordinary.\"",
+        "author": "Sarah M."
+      },
+      {
+        "quote": "\"Selva's sessions have completely transformed our students' experience. The feedback is always extraordinary.\"",
+        "author": "Sarah M."
+      }
+    ]
+  },
+  "about": {
+    "badge": "About Me",
+    "title": "I'm Selva",
+    "description1": "Urban shaman, overtone singer, and sound therapist. My name means \"jungle,\" and like it, I seek to create spaces of deep connection with each person's inner nature.",
+    "description2": "I work with Tibetan singing bowls, native flutes, shamanic drums, and overtone singing to facilitate experiences of healing and deep relaxation. My mission is to bring the healing power of sound to spaces where it can have the greatest impact: wellness centers, nursing homes, companies, and hotels throughout Barcelona and beyond.",
+    "location": "Barcelona, Spain",
+    "instagram": "@selva_patinyo"
+  },
+  "gallery": {
+    "title": "Experience the Sound",
+    "description": "A brief sound journey for you to discover the magic of Tibetan singing bowls and overtone singing.",
+    "alt1": "Tibetan singing bowl and sound journey video preview",
+    "alt2": "Shamanic drum and nature resonance sound journey video preview"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Ready to experience the healing power of sound? Contact me to book a session or request more information.",
+    "phone": "64410584",
+    "email": "selva@soundtherapy.com",
+    "travelStatus": "Based in Barcelona, Spain\nAvailable for travel",
+    "formTitle": "Send a Message",
+    "nameLabel": "Name",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "messageLabel": "Write a message...",
+    "agreeText": "I agree to the",
+    "policyLinkText": "Privacy Policy",
+    "submit": "Submit"
+  },
+  "footer": {
+    "logoAlt": "1 (1).jpg",
+    "privacy": "Privacy Policy",
+    "copyright": "© 2025 Selva Sound Therapy. All rights reserved.",
+    "brand": "Sound Therapy & Holistic Wellness"
+  },
+  "seo": {
+    "title": "Selva Sound Therapy | Well-Being Through Sound",
+    "description": "Sound baths, group sessions, and therapeutic sensory experiences for wellness centers, businesses, and more in Barcelona.",
+    "keywords": "sound therapy, sound bath, wellness, relaxation, Barcelona, singing bowls"
+  }
+}

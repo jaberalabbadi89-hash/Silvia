@@ -1,0 +1,220 @@
+{
+  "services": {
+    "badge": "SERVICIOS",
+    "title": "Mis <highlight>Servicios</highlight>",
+    "description": "Explora las diferentes sesiones de terapia de sonido y experiencias adaptadas a tus necesidades específicas.",
+    "cards": {
+      "individual": {
+        "title": "Sesiones Individuales y Grupales",
+        "description": "Baños de sonido y terapias personalizadas para una relajación profunda.",
+        "points": ["Relajación profunda", "Equilibrio emocional", "Reducción del estrés"],
+        "tags": ["Particulares", "Parejas", "Grupos reducidos"],
+        "action": {
+          "label": "Reservar ahora",
+          "href": "#anchors-mj443gvr3"
+        }
+      },
+      "corporate": {
+        "title": "Empresas y Educación",
+        "description": "Programas especializados para empresas, escuelas e instituciones.",
+        "points": ["Construcción de equipos", "Gestión del estrés", "Mejora de la concentración"],
+        "tags": ["Empresas", "Escuelas", "Eventos"],
+        "action": {
+          "label": "Reservar ahora",
+          "href": "#anchors-mj443gvr3"
+        }
+      }
+    }
+  },
+  "navbar": {
+    "ariaLabel": "Sitio",
+    "brand": {
+      "href": "/es",
+      "alt": "1 (1).jpg"
+    },
+    "links": {
+      "services": {
+        "label": "Servicios",
+        "href": "/es#anchors-mj2u0el63"
+      },
+      "method": {
+        "label": "Método",
+        "href": "/es#anchors-mj2ukmfn2"
+      },
+      "about": {
+        "label": "Sobre mi",
+        "href": "/es#anchors-mj2z3e173"
+      },
+      "contact": {
+        "label": "Contacto",
+        "href": "/es#anchors-mj443gvr3"
+      }
+    },
+    "booking": {
+      "label": "Reservar ahora",
+      "href": "#anchors-mj443gvr3"
+    }
+  },
+  "hero": {
+    "imageAlt": "Terapia de sonido",
+    "badge": "Terapia de sonido en Barcelona",
+    "title": "Bienestar a través del sonido y la voz",
+    "subtitle": "Baños de sonido, sesiones grupales y experiencias sensoriales terapéuticas para centros de bienestar, residencias de mayores, escuelas, empresas y centros sanitarios.",
+    "primaryAction": {
+      "label": "Reservar ahora",
+      "href": "#anchors-mj443gvr3"
+    },
+    "secondaryAction": {
+      "label": "Ver demostración",
+      "href": "/en#anchors-mj2ztfx52"
+    }
+  },
+  "features": {
+    "badge": "¿Qué es la terapia de sonido?",
+    "title": "El poder <highlight>curativo del sonido</highlight>",
+    "description": "La terapia de sonido utiliza vibraciones armónicas de cuencos tibetanos, flautas nativas, tambores, campanas de viento y cantos armónicos para inducir a estados profundos de relajación, equilibrar el sistema nervioso y facilitar la mejora emocional y física.",
+
+    "cards": {
+      "relaxation": {
+        "title": "Relajación profunda",
+        "description": "Reduce de forma natural el estrés y la ansiedad."
+      },
+      "clarity": {
+        "title": "Mejora",
+        "description": "Mejora la concentración y el bienestar emocional"
+      },
+      "sleep": {
+        "title": "Facilita",
+        "description": "Facilita ciclos de descanso reparador y equilibra las emociones."
+      },
+      "harmony": {
+        "title": "Reconecta",
+        "description": "Reconecta cuerpo, mente y espíritu"
+      }
+    }
+  },
+  "method": {
+    "badge": "Mi método",
+    "title": "Por qué funciona mi método",
+    "description": "Como chamana urbana, combino técnicas ancestrales de sanación a través del sonido, con un enfoque moderno, adaptado a las necesidades actuales. Mi práctica integra canto de armónicos, instrumentos nativos y años de experiencia en espacios de salud y bienestar.",
+    "cards": {
+      "holistic": {
+        "title": "Enfoque holístico",
+        "description": "Trabajando con cuerpo, mente y espíritu de forma integrada."
+      },
+      "adaptation": {
+        "title": "Adaptación personal",
+        "description": "Cada sesión se personaliza según las necesidades del momento."
+      },
+      "experience": {
+        "title": "Experiencia Certificada",
+        "description": "Años de formación y práctica en terapia de sonido y técnicas ancestrales."
+      },
+      "space": {
+        "title": "Espacio Sagrado",
+        "description": "Creando entornos seguros y acogedores para la curación."
+      }
+    },
+    "instrumentsTitle": "Instrumentos que utilizo",
+    "instruments": [
+      "Cuencos tibetanos",
+      "Tambor oceánico",
+      "Flauta nativa",
+      "Tambor chamánico",
+      "Canto de armónicos",
+      "Campanas de viento",
+      "Sonidos de la naturaleza",
+      "Tingshas"
+    ],
+    "quote": "\"El sonido es el puente entre lo visible y lo invisible, entre el cuerpo y el alma.\""
+  },
+  "audience": {
+    "badge": "¿Para quién?",
+    "title": "A quién va <highlight>dirigido?</highlight>",
+    "description": "Experiencias de terapia de sonido personalizadas para diversas necesidades y entornos.",
+    "cards": {
+      "yoga": {
+        "title": "Centros de yoga y meditación",
+        "description": "Mejora tu oferta de clases con acompañamiento meditativo y sonido terapéutico en vivo."
+      },
+      "corporate": {
+        "title": "Empresas",
+        "description": "Programas de bienestar corporativo para reducir el estrés y aumentar la moral del equipo."
+      },
+      "retirement": {
+        "title": "Residencias de ancianos",
+        "description": "Sesiones suaves y relajantes para mejorar el sueño y el estado de ánimo de las personas mayores."
+      },
+      "sports": {
+        "title": "Clubes deportivos",
+        "description": "Meditaciones guiadas para la relajación y bienestar de los usuarios."
+      },
+      "hotels": {
+        "title": "Hoteles y SPAS",
+        "description": "Baños de sonido suaves para los clientes que buscan la calidez distintiva de un espacio acogedor y relajante para sus vacaciones."
+      },
+      "private": {
+        "title": "Clientes privados",
+        "description": "Sesiones personalizadas para la sanación y el crecimiento personal."
+      }
+    }
+  },
+  "testimonials": {
+    "badge": "Testimonios",
+    "title": "Lo que la gente dice de <highlight>mis sesiones</highlight>",
+    "slides": [
+      {
+        "quote": "\"Recibí un baño de sonido que me resultó una experiencia sanadora y relajante. La técnica que utiliza a través de múltiples objetos sonoros y cantos de armónicos, te transporta a un estado de paz, bienestar y calma emocional.\"",
+        "author": "Paqui T."
+      },
+      {
+        "quote": "\"Recibí un baño de sonido que me resultó una experiencia sanadora y relajante. La técnica que utiliza a través de múltiples objetos sonoros y cantos de armónicos, te transporta a un estado de paz, bienestar y calma emocional.\"",
+        "author": "Paqui T."
+      },
+      {
+        "quote": "\"Recibí un baño de sonido que me resultó una experiencia sanadora y relajante. La técnica que utiliza a través de múltiples objetos sonoros y cantos de armónicos, te transporta a un estado de paz, bienestar y calma emocional.\"",
+        "author": "Paqui T."
+      }
+    ]
+  },
+  "about": {
+    "badge": "Acerca de mí",
+    "title": "Soy Selva",
+    "description1": "Chamana urbana, cantante de armónicos y terapeuta de sonido. Mi nombre significa \"jungla\" y, como tal, busco crear espacios de profunda conexión con la naturaleza interior de cada persona.",
+    "description2": "Trabajo con cuencos tibetanos, flauta nativa, tambores chamánicos y cantos armónicos para facilitar experiencias de sanación y relajación profunda. Mi misión es llevar el poder sanador del sonido a espacios donde pueda tener el mayor impacto: centros de bienestar, residencias de ancianos, empresas y hoteles en Barcelona y alrededores.",
+    "location": "Barcelona, España",
+    "instagram": "@selva_patinyo"
+  },
+  "gallery": {
+    "title": "Experimenta el sonido",
+    "description": "Un breve viaje sonoro para que descubras la resonancia sagrada del tambor chamánico y la magia de la vibración sanadora de los cuencos tibetanos",
+    "alt1": "Vista previa de video del cuenco tibetano y viaje sonoro",
+    "alt2": "Vista previa de video del tambor chamánico y resonancia de la naturaleza"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "description": "Ready to experience the healing power of sound? Contact me to book a session or request more information.",
+    "phone": "644105184",
+    "email": "selvapatinyo@gmail.com",
+    "travelStatus": "Con sede en Barcelona, España\nDisponible para viajar",
+    "formTitle": "Enviar un mensaje",
+    "nameLabel": "Nombre",
+    "emailLabel": "Email",
+    "phoneLabel": "Teléfono",
+    "messageLabel": "Escribe un mensaje...",
+    "agreeText": "Estoy de acuerdo con la",
+    "policyLinkText": "política de privacidad.",
+    "submit": "Enviar"
+  },
+  "footer": {
+    "logoAlt": "1 (1).jpg",
+    "privacy": "política de privacidad",
+    "copyright": "© 2025 Selva Sound Therapy. Todos los derechos reservados.",
+    "brand": "Terapia de sonido y bienestar holístico"
+  },
+  "seo": {
+    "title": "Selva Terapia de Sonido | Bienestar a través del sonido",
+    "description": "Baños de sonido, sesiones grupales y experiencias sensoriales terapéuticas para centros de bienestar, empresas y más en Barcelona.",
+    "keywords": "terapia de sonido, baño de sonido, bienestar, relajación, Barcelona, cuencos tibetanos"
+  }
+}
