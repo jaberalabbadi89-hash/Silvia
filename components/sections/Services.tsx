@@ -8,13 +8,17 @@ const serviceCards = [
     key: 'individual',
     icon: Users,
     image:
-      'https://images.unsplash.com/photo-1519834785169-98be25ec3f84?auto=format&fit=crop&q=80&w=800'
+      'https://images.unsplash.com/photo-1600618528240-fb9fc964b853?auto=format&fit=crop&w=800&q=80',
+    alt: 'Group sound therapy session',
+    animationClass: 'animate-float'
   },
   {
     key: 'corporate',
     icon: Building,
     image:
-      'https://images.unsplash.com/photo-1606240212788-cb949989bba3?auto=format&fit=crop&q=80&w=800'
+      'https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80',
+    alt: 'Individual sound therapy session',
+    animationClass: 'animate-float-delayed'
   }
 ] as const;
 
@@ -50,15 +54,15 @@ export function Services() {
 
         {/* Services Grid */}
         <div className="mt-16 grid w-full grid-cols-1 gap-12 lg:grid-cols-2">
-          {serviceCards.map(({ key, icon: Icon, image }) => (
+          {serviceCards.map(({ key, icon: Icon, image, alt, animationClass }) => (
             <div
               className="flex flex-col overflow-hidden rounded-[20px] bg-white shadow-lg transition-transform duration-300 hover:shadow-xl"
               key={key}
             >
               {/* Image Container */}
-              <div className="relative h-[300px] w-full overflow-hidden">
+              <div className={`relative h-[300px] w-full overflow-hidden ${animationClass}`}>
                 <Image
-                  alt={t(`cards.${key}.title`)}
+                  alt={alt}
                   className="object-cover transition-transform duration-500 hover:scale-105"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"

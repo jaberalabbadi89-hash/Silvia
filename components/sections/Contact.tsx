@@ -1,10 +1,11 @@
 'use client';
 
 import { useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 
 export function Contact() {
   const t = useTranslations('contact');
+  const locale = useLocale();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -12,6 +13,9 @@ export function Contact() {
     message: '',
     agree: false
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value, type } = e.target;
@@ -23,16 +27,64 @@ export function Contact() {
     }
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Frontend UI only - no submission logic as requested
+    if (isSubmitting) return;
+
+    setIsSubmitting(true);
+    setSubmitStatus('idle');
+    setErrorMessage('');
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      const data = await res.json().catch(() => null);
+
+      if (res.ok && data?.success) {
+        setSubmitStatus('success');
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          message: '',
+          agree: false
+        });
+      } else {
+        setSubmitStatus('error');
+        setErrorMessage(
+          data?.error ||
+            (locale === 'ca'
+              ? 'Hi ha hagut un error en enviar el missatge. Si us plau, torna-ho a provar.'
+              : locale === 'es'
+                ? 'Ha ocurrido un error al enviar el mensaje. Por favor, inténtalo de nuevo.'
+                : 'An error occurred while sending your message. Please try again.')
+        );
+      }
+    } catch {
+      setSubmitStatus('error');
+      setErrorMessage(
+        locale === 'ca'
+          ? 'Error de connexió. Si us plau, torna-ho a provar.'
+          : locale === 'es'
+            ? 'Error de conexión. Por favor, inténtalo de nuevo.'
+            : 'Connection error. Please try again.'
+      );
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
     <section
       id="anchors-mj443gvr3"
       aria-labelledby="contact-heading"
-      className="w-full bg-[#E8E6E6]/54 py-20 scroll-mt-20"
+      className="w-full scroll-mt-20 bg-[#E8E6E6]/54 py-20"
     >
       <div className="mx-auto flex w-full max-w-[980px] flex-col items-stretch justify-center px-6 md:flex-row">
         {/* Left Column: Contact info card (Green) */}
@@ -214,10 +266,40 @@ export function Contact() {
             {/* Submit Button */}
             <button
               type="submit"
-              className="mt-6 h-12 w-full self-end rounded-[10px] bg-[#50956D] font-sans text-base font-medium text-white shadow-sm transition-colors hover:bg-[#407757] focus:outline-none md:w-auto md:px-8"
+              disabled={isSubmitting}
+              className="mt-6 h-12 w-full self-end rounded-[10px] bg-[#50956D] font-sans text-base font-medium text-white shadow-sm transition-colors hover:bg-[#407757] focus:outline-none disabled:cursor-not-allowed disabled:opacity-60 md:w-auto md:px-8"
             >
-              {t('submit')}
+              {isSubmitting
+                ? locale === 'ca'
+                  ? 'Enviant...'
+                  : locale === 'es'
+                    ? 'Enviando...'
+                    : 'Sending...'
+                : t('submit')}
             </button>
+
+            {/* Status Messages */}
+            {submitStatus === 'success' && (
+              <div
+                className="mt-2 rounded-[10px] border border-[#50956D]/20 bg-[#50956D]/10 p-4 text-center font-sans text-sm font-medium text-[#50956D]"
+                role="status"
+              >
+                {locale === 'ca'
+                  ? '✓ Missatge enviat correctament. Ens posarem en contacte amb tu ben aviat.'
+                  : locale === 'es'
+                    ? '✓ Mensaje enviado correctamente. Nos pondremos en contacto contigo pronto.'
+                    : '✓ Message sent successfully. We will get back to you soon.'}
+              </div>
+            )}
+
+            {submitStatus === 'error' && (
+              <div
+                className="mt-2 rounded-[10px] border border-red-200 bg-red-50 p-4 text-center font-sans text-sm font-medium text-red-600"
+                role="alert"
+              >
+                {errorMessage}
+              </div>
+            )}
           </form>
         </div>
       </div>

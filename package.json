@@ -20,6 +20,7 @@
     "next-intl": "latest",
     "react": "latest",
     "react-dom": "latest",
+    "resend": "^6.28.1",
     "tailwind-merge": "latest",
     "tailwindcss-animate": "latest"
   },
