@@ -215,5 +215,33 @@
     "title": "Selva Teràpia de So | Benestar a través del so",
     "description": "Banys de so, sessions grupals i experiències sensorials terapèutiques per a centres de benestar, empreses i més a Barcelona.",
     "keywords": "teràpia de so, bany de so, benestar, relaxació, Barcelona, bols tibetans"
+  },
+  "faq": {
+    "badge": "PREGUNTES FREQÜENTS",
+    "title": "Preguntes <highlight>Freqüents</highlight>",
+    "description": "Troba respostes als dubtes més habituals sobre les sessions de teràpia de so, què esperar i com preparar-te.",
+    "items": {
+      "q1": {
+        "question": "Què és la teràpia de so i com funciona?",
+        "answer": "La teràpia de so és una pràctica holística ancestral que utilitza les vibracions harmòniques de bols tibetans, gongs, flautes natives i cant d'harmònics. Aquestes freqüències acústiques guien suaument les ones cerebrals cap a estats meditatius profunds (alfa i theta), calmant el sistema nerviós, alliberant tensions i restaurant l'harmonia interior."
+      },
+      "q2": {
+        "question": "Cal tenir experiència prèvia en meditació o banys de so?",
+        "answer": "De cap manera. La teràpia de so no requereix cap experiència prèvia ni esforç actiu. Simplement t'estires còmodament sobre una estoreta, tanques els ulls i permets que les ones vibracionals t'embolcallin de manera natural."
+      },
+      "q3": {
+        "question": "Quina roba he de portar i què cal dur a la sessió?",
+        "answer": "Recomanem roba còmoda i ampla que et permeti respirar i descansar amb facilitat. A l'espai disposem d'estoretes, coixins i mantes càlides. Pots portar una ampolla d'aigua i un antifaç si prefereixes una foscor més profunda."
+      },
+      "q4": {
+        "question": "Ofereixes sessions individuals privades a més de grupals?",
+        "answer": "Sí, ambdues modalitats estan disponibles. Les sessions individuals es personalitzen segons les teves necessitats físiques i energètiques específiques, mentre que els banys de so en grup ofereixen una experiència ressonant col·lectiva. També dissenyem tallers per a empreses i centres educatius."
+      },
+      "q5": {
+        "question": "On es fan les sessions i et desplaces a altres indrets?",
+        "answer": "Les sessions regulars es fan en espais serens de benestar a Barcelona. La Selva també està disponible per desplaçar-se a retirs privats, esdeveniments especials, jornades corporatives i festivals sota petició."
+      }
+    }
   }
 }
+

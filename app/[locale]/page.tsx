@@ -8,6 +8,7 @@ import { Audience } from '@/components/sections/Audience';
 import { Testimonials } from '@/components/sections/Testimonials';
 import { About } from '@/components/sections/About';
 import { Gallery } from '@/components/sections/Gallery';
+import { FAQ } from '@/components/sections/FAQ';
 import { Contact } from '@/components/sections/Contact';
 import { Footer } from '@/components/sections/Footer';
 
@@ -29,6 +30,7 @@ export default async function IndexPage({ params }: { params: Promise<{ locale: 
         <Testimonials />
         <About />
         <Gallery />
+        <FAQ />
         <Contact />
       </main>
       <Footer />

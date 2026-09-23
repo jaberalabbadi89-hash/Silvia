@@ -216,5 +216,33 @@
     "title": "Selva Sound Therapy | Well-Being Through Sound",
     "description": "Sound baths, group sessions, and therapeutic sensory experiences for wellness centers, businesses, and more in Barcelona.",
     "keywords": "sound therapy, sound bath, wellness, relaxation, Barcelona, singing bowls"
+  },
+  "faq": {
+    "badge": "FAQ",
+    "title": "Frequently Asked <highlight>Questions</highlight>",
+    "description": "Find answers to common questions about sound therapy sessions, what to expect, and how to prepare.",
+    "items": {
+      "q1": {
+        "question": "What is sound therapy and how does it work?",
+        "answer": "Sound therapy is an ancient holistic practice that uses harmonic vibrations from Tibetan singing bowls, gongs, native flutes, and overtone singing. These acoustic frequencies gently guide your brainwaves into deep meditative alpha and theta states, calming the nervous system, releasing tension, and restoring inner harmony."
+      },
+      "q2": {
+        "question": "Do I need previous experience with meditation or sound baths?",
+        "answer": "Not at all. Sound therapy requires no prior experience or active effort. You simply lie down comfortably on a mat, close your eyes, and allow the rich vibrational waves to wash over you naturally."
+      },
+      "q3": {
+        "question": "What should I wear and bring to a session?",
+        "answer": "Wear loose, comfortable clothing that allows you to breathe and rest freely. Comfortable mats, bolsters, and warm blankets are provided in the studio. You are welcome to bring a water bottle and an eye mask if you prefer deeper darkness."
+      },
+      "q4": {
+        "question": "Do you offer private individual sessions as well as group sessions?",
+        "answer": "Yes, both modalities are available. Individual sessions are customized to your personal physical and energetic needs, while group sound baths provide a collective resonant experience. We also design dedicated wellness workshops for companies and schools."
+      },
+      "q5": {
+        "question": "Where are sessions held and are you available for travel?",
+        "answer": "Regular sessions take place in peaceful wellness spaces across Barcelona. Selva is also available to travel for private retreats, special events, corporate wellness days, and festivals upon request."
+      }
+    }
   }
 }
+

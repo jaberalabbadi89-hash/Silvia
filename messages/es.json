@@ -216,5 +216,33 @@
     "title": "Selva Terapia de Sonido | Bienestar a través del sonido",
     "description": "Baños de sonido, sesiones grupales y experiencias sensoriales terapéuticas para centros de bienestar, empresas y más en Barcelona.",
     "keywords": "terapia de sonido, baño de sonido, bienestar, relajación, Barcelona, cuencos tibetanos"
+  },
+  "faq": {
+    "badge": "PREGUNTAS FRECUENTES",
+    "title": "Preguntas <highlight>Frecuentes</highlight>",
+    "description": "Encuentra respuestas a las dudas más habituales sobre las sesiones de terapia de sonido, qué esperar y cómo prepararte.",
+    "items": {
+      "q1": {
+        "question": "¿Qué es la terapia de sonido y cómo funciona?",
+        "answer": "La terapia de sonido es una práctica holística que utiliza las vibraciones acústicas de instrumentos como cuencos tibetanos, gongs y flautas nativas. Estas frecuencias están diseñadas para promover la relajación profunda, ayudando a crear un ambiente propicio para calmar la mente, reducir el estrés cotidiano y facilitar un estado de bienestar general."
+      },
+      "q2": {
+        "question": "¿Necesito experiencia previa en meditación o baños de sonido?",
+        "answer": "En absoluto. La terapia de sonido no requiere ninguna experiencia previa ni esfuerzo activo. Simplemente te tumbas cómodamente sobre una esterilla, cierras los ojos y permites que las ondas vibracionales te envuelvan de forma natural."
+      },
+      "q3": {
+        "question": "¿Qué ropa debo llevar y qué necesito traer?",
+        "answer": "Recomendamos ropa cómoda y holgada que te permita respirar y descansar con facilidad. En el espacio disponemos de esterillas, cojines y mantas cálidas. Puedes traer una botella de agua y un antifaz si prefieres una oscuridad más profunda."
+      },
+      "q4": {
+        "question": "¿Ofreces sesiones individuales privadas además de grupales?",
+        "answer": "Sí, ambas modalidades están disponibles. Las sesiones individuales se adaptan para enfocarse en tus objetivos personales de relajación y bienestar, mientras que los baños de sonido grupales ofrecen una experiencia inmersiva compartida. También diseñamos sesiones para empresas y eventos especiales."
+      },
+      "q5": {
+        "question": "¿Dónde se realizan las sesiones y te desplazas a otros lugares?",
+        "answer": "Las sesiones regulares se realizan en espacios serenos de bienestar en Barcelona. Selva también está disponible para desplazarse a retiros privados, eventos especiales, jornadas corporativas y festivales bajo petición."
+      }
+    }
   }
 }
+
