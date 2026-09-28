@@ -7,6 +7,7 @@ import { Menu, X } from 'lucide-react';
 
 import { NavbarLogo } from '@/ui/navbar-logo';
 import { NavigationMenuItem } from '@/ui/navigation-menu-item';
+import { LanguageSwitcher } from '@/components/navbar/LanguageSwitcher';
 
 const linkKeys = ['services', 'method', 'about', 'contact'] as const;
 
@@ -20,8 +21,8 @@ export function Navbar() {
         <NavbarLogo alt={t('brand.alt')} href={t('brand.href')} />
 
         {/* Desktop Navigation */}
-        <nav aria-label={t('ariaLabel')} className="hidden md:flex items-center justify-center">
-          <ul className="flex items-center gap-1 lg:gap-4 flex-nowrap whitespace-nowrap">
+        <nav aria-label={t('ariaLabel')} className="hidden items-center justify-center md:flex">
+          <ul className="flex flex-nowrap items-center gap-1 whitespace-nowrap lg:gap-4">
             {linkKeys.map((key) => (
               <NavigationMenuItem href={t(`links.${key}.href`)} key={key}>
                 {t(`links.${key}.label`)}
@@ -31,9 +32,11 @@ export function Navbar() {
         </nav>
 
         {/* Desktop & Mobile Actions */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
+          <LanguageSwitcher />
+
           <Link
-            className="hidden sm:flex h-10 w-[143px] shrink-0 items-center justify-center rounded-[10px] bg-[#50956D] px-2.5 text-[14px] font-normal tracking-[0.1em] text-white transition-all duration-200 ease-in-out hover:border hover:border-[#50956D] hover:bg-white hover:text-[#50956D] whitespace-nowrap"
+            className="hidden h-10 w-[143px] shrink-0 items-center justify-center rounded-[10px] bg-[#50956D] px-2.5 text-[14px] font-normal tracking-[0.1em] whitespace-nowrap text-white transition-all duration-200 ease-in-out hover:border hover:border-[#50956D] hover:bg-white hover:text-[#50956D] sm:flex"
             href={t('booking.href')}
           >
             {t('booking.label')}
@@ -44,7 +47,7 @@ export function Navbar() {
             type="button"
             aria-label="Toggle navigation menu"
             onClick={() => setIsOpen((prev) => !prev)}
-            className="flex md:hidden p-2 text-[#50956D] hover:text-[#2d563e] focus:outline-hidden transition-colors"
+            className="flex p-2 text-[#50956D] transition-colors hover:text-[#2d563e] focus:outline-hidden md:hidden"
           >
             {isOpen ? <X className="size-6" /> : <Menu className="size-6" />}
           </button>
@@ -53,7 +56,7 @@ export function Navbar() {
 
       {/* Mobile Dropdown Menu */}
       {isOpen && (
-        <div className="md:hidden border-t border-gray-100 bg-white px-6 py-4 shadow-lg animate-in fade-in slide-in-from-top-2 duration-200">
+        <div className="animate-in fade-in slide-in-from-top-2 border-t border-gray-100 bg-white px-6 py-4 shadow-lg duration-200 md:hidden">
           <nav aria-label={t('ariaLabel')} className="flex flex-col gap-3">
             <ul className="flex flex-col divide-y divide-gray-50">
               {linkKeys.map((key) => (
@@ -61,7 +64,7 @@ export function Navbar() {
                   <Link
                     href={t(`links.${key}.href`)}
                     onClick={() => setIsOpen(false)}
-                    className="block py-2.5 font-sans text-[15px] font-normal tracking-[0.1em] text-[#50956D] hover:text-black transition-colors"
+                    className="block py-2.5 font-sans text-[15px] font-normal tracking-[0.1em] text-[#50956D] transition-colors hover:text-black"
                   >
                     {t(`links.${key}.label`)}
                   </Link>
@@ -78,10 +81,16 @@ export function Navbar() {
                 {t('booking.label')}
               </Link>
             </div>
+
+            <div className="border-t border-gray-100 pt-3">
+              <div className="mb-2 text-[12px] font-medium tracking-wider text-gray-400 uppercase">
+                Idioma / Language
+              </div>
+              <LanguageSwitcher variant="segmented" onSelect={() => setIsOpen(false)} />
+            </div>
           </nav>
         </div>
       )}
     </header>
   );
 }
-
