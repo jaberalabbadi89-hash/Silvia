@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { CheckCircle2, Users, Building } from 'lucide-react';
 
@@ -110,12 +109,12 @@ export function Services() {
                 </ul>
 
                 <div className="mt-8 pt-6 lg:mt-auto">
-                  <Link
+                  <a
                     className="flex h-[44px] w-full items-center justify-center rounded-[10px] border border-transparent bg-[#50956D] px-6 font-sans text-sm font-medium tracking-[0.1em] text-white transition-all duration-200 hover:border-[#50956D] hover:bg-white hover:text-[#50956D]"
-                    href={t(`cards.${key}.action.href`)}
+                    href="#contact"
                   >
                     {t(`cards.${key}.action.label`)}
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

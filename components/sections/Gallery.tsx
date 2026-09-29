@@ -43,9 +43,9 @@ function VideoCard({ src, poster, altText }: VideoCardProps) {
         src={src}
         className="h-full w-full object-cover"
         autoPlay
-        loop
-        muted={isMuted}
+        muted
         playsInline
+        loop
         onPlay={() => setIsPlaying(true)}
         onPause={() => setIsPlaying(false)}
         onLoadedData={() => setIsVideoLoaded(true)}
@@ -100,7 +100,7 @@ export function Gallery() {
   const t = useTranslations('gallery');
 
   return (
-    <section aria-labelledby="gallery-heading" className="w-full bg-[#FFFFFF] py-20">
+    <section id="demo" aria-labelledby="gallery-heading" className="w-full scroll-mt-20 bg-[#FFFFFF] py-20">
       <div className="mx-auto flex w-full max-w-[980px] flex-col items-center px-6">
         {/* Section Heading */}
         <h2

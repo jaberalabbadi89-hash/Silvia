@@ -11,7 +11,7 @@
         "tags": ["Particulares", "Parejas", "Grupos reducidos"],
         "action": {
           "label": "Reservar ahora",
-          "href": "#anchors-mj443gvr3"
+          "href": "#contact"
         }
       },
       "corporate": {
@@ -21,7 +21,7 @@
         "tags": ["Empresas", "Escuelas", "Eventos"],
         "action": {
           "label": "Reservar ahora",
-          "href": "#anchors-mj443gvr3"
+          "href": "#contact"
         }
       }
     }
@@ -62,11 +62,11 @@
     "subtitle": "Baños de sonido, sesiones grupales y experiencias sensoriales terapéuticas para centros de bienestar, residencias de mayores, escuelas, empresas y centros sanitarios.",
     "primaryAction": {
       "label": "Reservar ahora",
-      "href": "#anchors-mj443gvr3"
+      "href": "#contact"
     },
     "secondaryAction": {
       "label": "Ver demostración",
-      "href": "/en#anchors-mj2ztfx52"
+      "href": "#demo"
     }
   },
   "features": {

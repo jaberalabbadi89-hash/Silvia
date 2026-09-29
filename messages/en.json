@@ -11,7 +11,7 @@
         "tags": ["Individuals", "Couples", "Small groups"],
         "action": {
           "label": "Book Now",
-          "href": "#anchors-mj443gvr3"
+          "href": "#contact"
         }
       },
       "corporate": {
@@ -21,7 +21,7 @@
         "tags": ["Companies", "Schools", "Events"],
         "action": {
           "label": "Book Now",
-          "href": "#anchors-mj443gvr3"
+          "href": "#contact"
         }
       }
     }
@@ -62,11 +62,11 @@
     "subtitle": "Sound baths, group sessions, and therapeutic sensory experiences for wellness centers, nursing homes, schools, businesses, and healthcare facilities.",
     "primaryAction": {
       "label": "Book Now",
-      "href": "#anchors-mj443gvr3"
+      "href": "#contact"
     },
     "secondaryAction": {
       "label": "View demo",
-      "href": "/en#anchors-mj2ztfx52"
+      "href": "#demo"
     }
   },
   "features": {

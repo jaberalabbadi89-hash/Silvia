@@ -9,12 +9,12 @@ export function Hero() {
   const t = useTranslations('hero');
   const actions = [
     {
-      href: t('primaryAction.href'),
+      href: '#contact',
       label: t('primaryAction.label'),
       variant: 'primary'
     },
     {
-      href: t('secondaryAction.href'),
+      href: '#demo',
       label: t('secondaryAction.label'),
       variant: 'secondary'
     }

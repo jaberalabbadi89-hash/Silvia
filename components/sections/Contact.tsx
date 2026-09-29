@@ -82,10 +82,11 @@ export function Contact() {
 
   return (
     <section
-      id="anchors-mj443gvr3"
+      id="contact"
       aria-labelledby="contact-heading"
       className="w-full scroll-mt-20 bg-[#E8E6E6]/54 py-20"
     >
+      <div id="anchors-mj443gvr3" aria-hidden="true" />
       <div className="mx-auto flex w-full max-w-[980px] flex-col items-stretch justify-center px-6 md:flex-row">
         {/* Left Column: Contact info card (Green) */}
         <div className="flex w-full flex-col justify-between rounded-t-[30px] bg-[#50956D] p-8 text-white md:w-[433px] md:rounded-l-[30px] md:rounded-tr-none md:p-12">
