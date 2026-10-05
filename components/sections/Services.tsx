@@ -6,16 +6,14 @@ const serviceCards = [
   {
     key: 'individual',
     icon: Users,
-    image:
-      'https://images.unsplash.com/photo-1600618528240-fb9fc964b853?auto=format&fit=crop&w=800&q=80',
+    image: '/images/group-session.avif',
     alt: 'Group sound therapy session',
     animationClass: 'animate-float'
   },
   {
     key: 'corporate',
     icon: Building,
-    image:
-      'https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=800&q=80',
+    image: '/images/individual-session.avif',
     alt: 'Individual sound therapy session',
     animationClass: 'animate-float-delayed'
   }

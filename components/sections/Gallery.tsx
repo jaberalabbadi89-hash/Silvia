@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
@@ -16,34 +16,59 @@ function VideoCard({ src, poster, altText }: VideoCardProps) {
   const [isMuted, setIsMuted] = useState(true);
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
 
-  const togglePlay = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    if (!videoRef.current) return;
-    if (isPlaying) {
-      videoRef.current.pause();
+  useEffect(() => {
+    const video = videoRef.current;
+    if (!video) return;
+
+    if (video.readyState >= 2) {
+      setIsVideoLoaded(true);
+    }
+    if (video.paused) {
       setIsPlaying(false);
     } else {
-      videoRef.current.play().catch(() => {});
       setIsPlaying(true);
+    }
+  }, []);
+
+  const togglePlay = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    const video = videoRef.current;
+    if (!video) return;
+
+    if (!video.paused) {
+      video.pause();
+      setIsPlaying(false);
+    } else {
+      video
+        .play()
+        .then(() => setIsPlaying(true))
+        .catch((error) => {
+          console.error('Error playing video:', error);
+          setIsPlaying(false);
+        });
     }
   };
 
   const toggleMute = (e: React.MouseEvent) => {
     e.stopPropagation();
-    if (!videoRef.current) return;
-    videoRef.current.muted = !isMuted;
-    setIsMuted(!isMuted);
+    const video = videoRef.current;
+    if (!video) return;
+    const nextMuted = !isMuted;
+    video.muted = nextMuted;
+    setIsMuted(nextMuted);
   };
 
   return (
-    <div className="group relative aspect-square w-full max-w-[482px] overflow-hidden rounded-[10px] border border-[#E8E6E6]/86 bg-black shadow-sm transition-all duration-400 ease-in-out hover:scale-[1.03] hover:shadow-md">
+    <div className="group relative aspect-square w-full max-w-[482px] overflow-hidden rounded-[10px] border border-[#E8E6E6]/86 bg-black shadow-sm transition-all duration-400 ease-in-out hover:scale-[1.03] hover:shadow-md isolate transform-gpu [-webkit-mask-image:-webkit-radial-gradient(white,black)]">
       {/* Video element */}
       <video
         ref={videoRef}
         src={src}
-        className="h-full w-full object-cover"
+        poster={poster}
+        preload="metadata"
+        className="absolute inset-0 h-full w-full object-cover"
         autoPlay
-        muted
+        muted={isMuted}
         playsInline
         loop
         onPlay={() => setIsPlaying(true)}
@@ -53,7 +78,14 @@ function VideoCard({ src, poster, altText }: VideoCardProps) {
 
       {/* Next.js Optimized Image Poster overlay until video is loaded */}
       {!isVideoLoaded && (
-        <Image src={poster} alt={altText} fill unoptimized priority className="object-cover" />
+        <Image
+          src={poster}
+          alt={altText}
+          fill
+          unoptimized
+          priority
+          className="pointer-events-none object-cover"
+        />
       )}
 
       {/* Hover Controls Overlay */}
