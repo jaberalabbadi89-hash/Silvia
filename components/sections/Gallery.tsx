@@ -89,19 +89,19 @@ function VideoCard({ src, poster, altText }: VideoCardProps) {
       )}
 
       {/* Hover Controls Overlay */}
-      <div className="absolute inset-0 flex flex-col justify-between bg-black/10 p-6 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+      <div className="pointer-events-none absolute inset-0 flex flex-col justify-between bg-transparent p-6 opacity-100 transition-opacity duration-300 md:bg-black/10 md:opacity-0 md:group-hover:opacity-100">
         {/* Play / Pause Toggle Button */}
         <button
           onClick={togglePlay}
-          className="flex h-10 w-10 items-center justify-center self-start rounded-full bg-white/90 text-[#50956D] shadow-sm transition-colors hover:bg-white focus:outline-none"
+          className="pointer-events-auto absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex h-14 w-14 items-center justify-center rounded-full bg-white/95 text-[#50956D] shadow-md transition-all hover:bg-white focus:outline-none md:static md:h-10 md:w-10 md:translate-x-0 md:translate-y-0 md:self-start md:bg-white/90 md:shadow-sm"
           aria-label={isPlaying ? 'Pause video' : 'Play video'}
         >
           {isPlaying ? (
-            <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+            <svg className="h-6 w-6 md:h-5 md:w-5" viewBox="0 0 24 24" fill="currentColor">
               <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
             </svg>
           ) : (
-            <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+            <svg className="h-6 w-6 md:h-5 md:w-5 translate-x-0.5 md:translate-x-0" viewBox="0 0 24 24" fill="currentColor">
               <path d="M8 5v14l11-7z" />
             </svg>
           )}
@@ -110,7 +110,7 @@ function VideoCard({ src, poster, altText }: VideoCardProps) {
         {/* Volume Mute / Unmute Button */}
         <button
           onClick={toggleMute}
-          className="flex h-10 w-10 items-center justify-center self-end rounded-full bg-white/90 text-[#50956D] shadow-sm transition-colors hover:bg-white focus:outline-none"
+          className="pointer-events-auto mt-auto flex h-10 w-10 items-center justify-center self-end rounded-full bg-white/95 text-[#50956D] shadow-md transition-colors hover:bg-white focus:outline-none md:mt-0 md:bg-white/90 md:shadow-sm"
           aria-label={isMuted ? 'Unmute audio' : 'Mute audio'}
         >
           {isMuted ? (
